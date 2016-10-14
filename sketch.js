@@ -4,8 +4,8 @@ function setup() {
 }
 
 function draw() {
-  if (mouseIsPressed){
-    fill(0)
+  if (keyIsPressed == true){
+    fill(255, 0, 0);
   }
   else{
   fill( 0, 102, 255, 60);}
