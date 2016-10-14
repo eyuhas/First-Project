@@ -6,9 +6,9 @@ function setup() {
 
 function draw() {
   if (keyCode == LEFT_ARROW) {
-    fill(0,0, 0);
+    fill(0,0, 0);}
     else if (keyCode == RIGHT_ARROW){
-      fill(255, 255, 255);
+      fill(255, 255, 255);}
   if (keyIsPressed){
     fill(255, 0, 0);
   }
