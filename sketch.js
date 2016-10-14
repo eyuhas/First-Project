@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(3000, 3000, WEBGL);
+  noCursor();
+  createCanvas(3000, 3000);
   background( 120, 0, 120, 120);
 }
 
