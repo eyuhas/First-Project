@@ -5,6 +5,7 @@ function setup() {
 }
 
 function draw() {
+  system.out.printline("Soap"); 
   fill( 0, 102, 255, 60);
 triangle(mouseX + 10, mouseY, mouseX - 10, mouseY, mouseX , mouseY - 10);
 }
