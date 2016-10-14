@@ -5,5 +5,5 @@ function setup() {
 
 function draw() {
   fill( 0, 102, 255, 60);
-triangle(mouseX, mouseY, mouseX, mouseY, mouseX,mouseY);
+triangle(mouseX + 10, mouseY, mouseX - 10, mouseY, mouseX ,mouseY + 10);
 }
