@@ -8,6 +8,6 @@ function draw() {
     fill(0)
   }
   else{
-  fill( 0, 102, 255, 60);
-triangle(mouseX + 10, mouseY, mouseX - 10, mouseY, mouseX , mouseY - 10);}
+  fill( 0, 102, 255, 60);}
+triangle(mouseX + 10, mouseY, mouseX - 10, mouseY, mouseX , mouseY - 10);
 }
