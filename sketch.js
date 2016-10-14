@@ -1,5 +1,4 @@
 function setup() {
-  noCursor();
   createCanvas(3000, 3000);
   background( 120, 0, 120, 120);
 }
